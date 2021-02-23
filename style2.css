@@ -1,0 +1,76 @@
+body{
+    border: 3px solid black;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+    margin-top: .5in;
+    margin-bottom: 1in;
+    padding-left: 1.5in;
+    padding-right: 1.5in;
+    padding-top: 1in;
+    padding-bottom: 1in;
+}
+p{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+li{
+    font-family:  'Times New Roman', Times, serif;
+}
+h1{
+    font-family:  Georgia, monospace;
+    font-weight: bold;
+}
+#obj{
+    padding-left: .5in;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#pic{
+    float: right;
+}
+h5{
+font-weight: bold;
+text-decoration: underline;
+}
+#qt{
+    margin-left: .6in;
+    font-style: italic;
+}
+#sign{
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: right ;;
+    margin-bottom: 0%;
+
+}
+#app{
+        font-size: 18px;
+        font-weight: bold   ;
+        margin-top: .2px;
+        text-align: right;
+        padding-right: .35in;
+}
+#per{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#per1{
+     margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+#per2{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+

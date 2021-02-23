@@ -1,0 +1,107 @@
+table{
+    
+    width: 825px;
+    font-size: 14px;
+    background-color: #14fafa;
+    height: 830px;
+    
+}    
+body{
+   
+    margin-right: 2in;
+    margin-left: 2in;
+    margin-top: .5in;
+    margin-bottom: .5in;
+}
+
+    
+
+#fax{
+    width: 80px;
+    font-weight: bold;
+}
+#fain1{
+    width: 120px;
+    height: 30px;
+}
+#einput{
+    height: 30px;
+    width:  154px;
+}
+#einput2{
+    height: 32px;
+    width:  154px;
+}
+#ro2{
+    width: 20px;  
+    font-weight: bold;
+}
+#lname{
+    width: 137px;
+    height: 15px;
+    
+}
+#fname{
+    width: 153px;
+    height: 15px;
+}
+#mname{
+    width: 279px;
+    height: 15px; 
+}
+#sname, #pers{
+    width: 140px;
+    height: 15px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+#pname, #bdate, #xp{
+    width:  592px;
+}
+#educ{
+    width:  592px;
+    height: 30px;
+}
+#org1{
+    width: 188px;
+}
+#org2{
+    width: 139px;
+}
+#org3{
+    width: 152px;
+}
+#org4{
+    width: 279px;
+}
+#design{
+    width:  592px;
+}#fna1{
+    width:  592px;
+    height: 30px;
+}
+#mpi1{
+    width:  592px;
+    height: 30px;
+}
+#tp1{
+    width:  592px;
+    height: 40px;
+}
+#ra1,#ra2,#ra3,#ra4,#ra5{
+    width:  592px;
+}
+#rt{
+    width:  592px;
+}
+#tele{
+    width: 120px;
+}
+
+#anyn, #pr{
+    font-weight: bold; 
+}
+#pri{
+    font-weight: bold;
+    
+}

@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url(blogPics/bikebg6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+   section{
+       margin: 0 auto;
+   } 
+
+    header{
+        padding: 0 50px;
+        width: 100%;
+        height: 80px;
+        box-sizing: border-box;
+        background: rgb(255,255,255,.5);
+        box-shadow: 0 2px 15px rgb(0,0,0,.2);
+        transition: .5s;
+        position:fixed;
+        z-index: 1000;
+    }
+    .logo{
+        padding: 5px 0 0 50px;
+        width: 150px;
+        height: 80px;
+    }
+    header ul{
+        padding: 0;
+        margin: 0;
+        float: right;
+        margin-right: 20px;
+    }
+    header ul li{
+        position: relative;
+        list-style: none;
+        display: inline-block;
+    }
+    header ul li a{
+        display: block;
+        padding: 0 15px;
+        color: #0c25b1;
+        text-decoration: none;
+        line-height: 75px;
+        font-size: 20px;
+        transition: .5s;
+        font-weight: bold;
+    }
+    header ul li a:hover{
+        background: white;
+    }
+    header ul ul{
+        position: absolute;
+        top: 50px;
+        display: none;
+       transition: all 0.6s ease;
+    }
+    header ul:hover > ul{
+        display: block;
+
+    }
+    header ul ul li a{
+        width: 123px;
+        float: none;
+        display: list-item;
+        position: relative;
+        text-align: center;
+        box-shadow: 0 2px 7px rgb(0,0,0,.9);
+        background: rgb(255,255,255,.7);
+        transition: .2s;
+    }
+ 
+
+.post {
+	border-radius: 25px;
+	background-color: rgb(154, 218, 243); 
+	box-shadow: 0 0 17px rgb(2, 47, 88);
+	border: 12px groove goldenrod;
+	margin: 12px;
+	padding: 15px;
+    
+}
+.post img {
+	height: 200px;
+	width: 200px;
+    padding-left: 5px;
+}
+.post a{
+    text-decoration: none;
+}
+section .post{
+    position: relative;
+    overflow:hidden;
+    color: #000;
+    top: 60px;
+    z-index: 500;
+}
+.back{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.back a:hover{
+    color: aqua;
+}
+h2 {
+    color:mediumblue;
+}
+h4{
+    color:rgb(179, 88, 231);
+}
+.comment {
+	border-radius: 25px;
+	background-color: rgb(154, 218, 243); 
+	box-shadow: 0 0 17px rgb(2, 47, 88);
+	border: 12px groove goldenrod;
+	margin: 12px;
+	padding: 15px;
+}
+section .comment{
+    position:relative;
+    color: #000;
+    top: 50px;
+    /* z-index: 500; */
+}
+section .wala{
+    opacity: 0;
+    pointer-events: none;
+}
+.comment form{
+	border: 12px solid red;
+}
+.comment button{
+    color:mediumblue;
+    font-weight: bold;
+}
+.comments{
+    border-radius: 25px;
+	background-color: rgb(154, 218, 243); 
+	box-shadow: 0 0 17px rgb(2, 47, 88);
+	border: 12px groove goldenrod;
+	margin: 12px;
+	padding: 15px;
+}
+.comments button{
+    color:mediumblue;
+    font-weight: bold;
+}
+.comments{
+    position:relative;
+    color: #000;
+    top: 50px;
+}
+.bord{
+    background-color: rgb(154, 218, 243); 
+}

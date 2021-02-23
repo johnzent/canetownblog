@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+
+table{
+    width: 100%;
+    height: 635px;
+    
+    
+}
+table, tr, td, th{
+    border: 1px solid black;
+}
+#r1c1{
+    width: 180px;
+    background-color: rgb(179, 245, 242);
+    vertical-align: top;
+    padding-top: 30px ;
+}
+#r1c2{
+    height: 500px;
+    background-image: url(blogPics/bikebg6.jpg);
+    background-repeat: no-repeat;
+}
+#r2c2{
+    background-color: rgb(179, 245, 242);
+    padding: 10px;
+    width: 200px;
+}
+#webt{
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+#r2c1{
+    background-color:rgb(179, 245, 242);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    vertical-align: top;
+}
+#p1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(130, 236, 130);
+    border-style: dashed;
+}
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 247, 250);
+    border-style: dashed;
+}
+#p3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 149, 130);
+    border-style: dashed;
+}
+h3{
+    font-family: fantasy;
+}
+
+#social{
+   text-align: left;
+}
+#menu{
+    padding-bottom: 140px;
+}
+a{
+    color: black;
+}
+#ma{
+    font-family:  fantasy;
+    font-weight: bold;
+}
+#copy{
+    font-size: 10px;
+}
+</style>
+
+</head>
+<body>
+    <a href="activities.php">Back</a>
+    <table>
+    <tr id="r1">
+        <td id="r1c1" rowspan="2">
+            <H3>MENU</H3>
+            <br>
+            <ul id="menu">
+                <li><a id="ma" href="">Home</a></li>
+                <br>
+                <li><a id="ma" href="">About</a></li>
+                <br>
+                <li> <a id="ma" href="">Services</a></li>
+                <br>
+                <li><a id="ma" href="">Contact</a></li>
+            </ul>         
+                <h5>Visit us</h5>
+                <a class="fa fa-facebook" href="#">Facebook</a> <br>
+                <a class="fa fa-instagram" href="#">Instagram</a> <br>
+                <a class="fa fa-envelope" href="#">Yahoo</a> <br>
+                <a class="fa fa-youtube" href="#">Youtube</a> <br>
+                <a class="fa fa-link" href="#"> Linkin</a><br> <br>
+               <p id="copy"> © 2014 Copyright</p>
+        </td>
+        <td id="r1c2" colspan="2"><h1 id="webt">Bikers</h1></td> 
+    </tr>
+    <tr id="r2">
+        <td id="r2c1">
+                <div class="row">
+                    <div class="col">
+                        <p id="p1">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                           Aspernatur dolore beatae dolorum, assumenda expedita eveniet <br> nostrum, deserunt quasi necessitatibus <br>
+                            quo praesentium aperiam voluptatum illo consectetur! Nihil <br>
+                             nostrum consequuntur alias voluptatibus.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p id="p2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                            Aspernatur dolore beatae dolorum, assumenda expedita eveniet <br> nostrum, deserunt quasi necessitatibus <br>
+                             quo praesentium aperiam voluptatum illo consectetur! Nihil <br>
+                              nostrum consequuntur alias voluptatibus.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p id="p3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                            Aspernatur dolore beatae dolorum, assumenda expedita eveniet <br> nostrum, deserunt quasi necessitatibus <br>
+                             quo praesentium aperiam voluptatum illo consectetur! Nihil <br>
+                              nostrum consequuntur alias voluptatibus.
+                        </p>
+                    </div>
+                </div>
+        </td>
+        <td id="r2c2" ><img src="blogPics/bicycle.jpg" alt="" height="170px" width="180px"></td>
+    </tr>
+    </table>
+</body>
+</html>
